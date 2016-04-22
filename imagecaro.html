@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Angular Test</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="JS/imagecaro.js"></script>
+</head>
+<body ng-app="imgCaro">
+<div ng-controller="caroCtrl">
+<img src="{{slider[index]}}">
+<br><br>
+<button ng-click="prev()">Prev</button>
+<button ng-click="next()">Next</button>
+</div>
+</body>
+</html>
